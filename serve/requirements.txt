@@ -1,0 +1,6 @@
+# TraceCut 服务层依赖（在已有 tracecut 环境之上增量安装）
+fastapi>=0.110
+uvicorn[standard]>=0.29
+# 注意：gradio 4.x 与新版 pydantic/starlette/httpx 存在兼容问题（launch 的
+# url_ok 检查、gr.JSON 的 additionalProperties schema 等），实测 5.50.0 可正常启动，锁定 5.x。
+gradio>=5.0,<6

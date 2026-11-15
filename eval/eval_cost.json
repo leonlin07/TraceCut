@@ -1,0 +1,23 @@
+{
+  "calls": 1023,
+  "prompt_tokens": 1034373,
+  "completion_tokens": 62140,
+  "llm_cost_rmb": 0.7206,
+  "tts_chars": 1552,
+  "tts_cost_rmb": 0.776,
+  "total_cost_rmb": 1.4966,
+  "by_model": {
+    "Qwen/Qwen3.5-35B-A3B": {
+      "calls": 169,
+      "prompt_tokens": 235821,
+      "completion_tokens": 52214,
+      "cost_rmb": 0.2746
+    },
+    "Qwen/Qwen3-VL-8B-Instruct": {
+      "calls": 854,
+      "prompt_tokens": 798552,
+      "completion_tokens": 9926,
+      "cost_rmb": 0.4513
+    }
+  }
+}

@@ -1,0 +1,27 @@
+# Python 缓存
+**/__pycache__/
+**/*.pyc
+.pytest_cache/
+
+# 成片输出（几百 MB，不进镜像）
+tracecut/runs/
+
+# 敏感信息
+.env
+*.env
+
+# 评测 / 历史 / 文档（部署运行时不需要）
+eval/
+branch_7/
+experiments/
+output/
+docs/
+
+# 测试
+tracecut/tests/
+
+# 临时排障文件
+_*.txt
+_*.jpg
+_*.zip
+_*.py

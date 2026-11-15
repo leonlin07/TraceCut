@@ -1,0 +1,47 @@
+
+# 实验残留与过程文档（不公开）
+branch_7/
+
+# Python 缓存与构建产物
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.cache/
+
+# 环境与密钥
+.env
+.vscode/
+.idea/
+
+# 日志
+*.log
+
+# 排障临时文件
+_*.zip
+_*.jpg
+_*.txt
+_test_*.py
+_verify_*.py
+
+# 生成产物与媒体
+output/
+runs/
+*.mp4
+*.wav
+*.ass
+*.srt
+
+# 本地工具指南与内部/个人文档（不公开）
+CLAUDE.md
+docs/migration_audit.md
+docs/project_direction_and_paper_plan.md
+docs/demo_development_interview_notes.md
+docs/tts_and_highlights.md
+docs/research_report_video_editing_agent.md
+
+# 含本机绝对路径的启动脚本（不公开）
+deploy/start_uvicorn.bat
+deploy/start_ui.bat
+eval/run_m2_eval.bat

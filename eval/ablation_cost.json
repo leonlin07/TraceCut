@@ -1,0 +1,48 @@
+{
+  "vl-only": {
+    "calls": 120,
+    "prompt_tokens": 105919,
+    "completion_tokens": 4109,
+    "llm_cost_rmb": 0.0677,
+    "tts_chars": 170,
+    "tts_cost_rmb": 0.085,
+    "total_cost_rmb": 0.1527,
+    "by_model": {
+      "Qwen/Qwen3.5-35B-A3B": {
+        "calls": 15,
+        "prompt_tokens": 7927,
+        "completion_tokens": 2919,
+        "cost_rmb": 0.0131
+      },
+      "Qwen/Qwen3-VL-8B-Instruct": {
+        "calls": 105,
+        "prompt_tokens": 97992,
+        "completion_tokens": 1190,
+        "cost_rmb": 0.0554
+      }
+    }
+  },
+  "full": {
+    "calls": 108,
+    "prompt_tokens": 102960,
+    "completion_tokens": 7867,
+    "llm_cost_rmb": 0.0779,
+    "tts_chars": 121,
+    "tts_cost_rmb": 0.0605,
+    "total_cost_rmb": 0.1384,
+    "by_model": {
+      "Qwen/Qwen3.5-35B-A3B": {
+        "calls": 18,
+        "prompt_tokens": 19248,
+        "completion_tokens": 6854,
+        "cost_rmb": 0.0312
+      },
+      "Qwen/Qwen3-VL-8B-Instruct": {
+        "calls": 90,
+        "prompt_tokens": 83712,
+        "completion_tokens": 1013,
+        "cost_rmb": 0.0474
+      }
+    }
+  }
+}
